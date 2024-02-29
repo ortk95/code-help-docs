@@ -4,7 +4,7 @@
 1. Sign into your GitHub account on https://github.com.
 2. Click on the `+` sign in the top right corner and select `New repository` (or go to https://github.com/new).
    
-![Screenshot of new repository button](images/creating_a_git_repo/image.png)
+    ![Screenshot of new repository button](images/creating_a_git_repo/image.png)
 
 3. Fill out the form to create a new repository:
     1. Give the repository a useful name (`names-formatted-like-this` usually work well) and appropriate description.
@@ -30,11 +30,11 @@
     2. Add a useful commit summary message and description.
     3. Click the `Commit to main` button to create the commit and save the changes to your local clone. Your changes are now saved in your local clone, but not yet on GitHub.
    
-    ![Committing changes in GitHub desktop](images/creating_a_git_repo/image-3.png)
+        ![Committing changes in GitHub desktop](images/creating_a_git_repo/image-3.png)
 
 6. To push the changes to GitHub, click the `Push origin` button in the top right corner of the GitHub desktop app. This will upload your changes to the GitHub repository.
 
-![Pushing changes to GitHub](images/creating_a_git_repo/image-4.png)
+    ![Pushing changes to GitHub](images/creating_a_git_repo/image-4.png)
 
 
 ## Using `.gitignore` files to automatically exclude files from the repository
