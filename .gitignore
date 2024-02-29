@@ -1,0 +1,15 @@
+# Ignore all filetypes by default except those explicitly allowed
+*
+!*/
+!*.md
+!*.png
+!*.jpg
+!*.jpeg
+
+# Allowed paths
+!*requirements.txt
+!LICENSE.txt
+!.gitignore
+
+# Explicitly ignored paths
+.vscode
