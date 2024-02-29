@@ -22,4 +22,7 @@
 5. When you want to create a new commit (e.g. after adding new files or making edits), open the GitHub desktop app:
     1. You should see a list of changes you have made since the last commit. You can select which changes to include in the commit with the tick boxes.
     2. Add a useful commit summary message and description.
-    3. Click the `Commit to main` button to create the commit and save the changes to your local clone.
+    3. Click the `Commit to main` button to create the commit and save the changes to your local clone. Your changes are now saved in your local clone, but not yet on GitHub.
+    ![Committing changes in GitHub desktop](images/creating_a_git_repo/image-3.png)
+6. To push the changes to GitHub, click the `Push origin` button in the top right corner of the GitHub desktop app. This will upload your changes to the GitHub repository.
+![Pushing changes to GitHub](images/creating_a_git_repo/image-4.png)
