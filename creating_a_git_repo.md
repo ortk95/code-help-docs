@@ -13,6 +13,8 @@
     4. Click the green `Create repository` button to create the repository.
 4. You should now have a new repository on GitHub.
 
+Once you have created the repository, you can add add files to it [using the GitHub desktop app (see below)](#using-github-desktop-to-add-files-to-the-repository). You can also [set up Zenodo to automattically archive the repository](creating_a_zenodo_archive.md).
+
 [GitHub's quickstart for repositories documentatiton](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)
 
 ## Using GitHub desktop to add files to the repository
