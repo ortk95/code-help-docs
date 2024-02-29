@@ -5,7 +5,7 @@
 2. Make sure the GitHub repository's visibility is public. To change this, go to the repository's settings page on GitHub, scroll to the bottom of the "General" settings section, and change the visibility to public.
 3. Create account on https://zenodo.org/ (signing up with GitHub will make things easy).
 4. Go to the Zenodo GitHub settings page: https://zenodo.org/account/settings/github/.
-5. Click on the switch next to the repository you want to link to Zenodo to turn on archiving for that repository. The repository is now linked to Zenodo and will be automatically archived whenever you create a new release is created on GitHub.
+5. Click on the switch next to the repository you want to link to Zenodo to turn on archiving for that repository. The repository is now linked to Zenodo and will be automatically archived whenever you create a new release is created on GitHub. If your repository isn't in the list, try clicking the `Sync now` button at the top of the page to refresh the list of repositories, and double check that your repository is public.
 6. Create a new release of the repository on GitHub ([see below](#creating-a-new-release-on-github)).
 7. Once you have created your first release, Zenodo will automatically create an archive of the repository and assign it a DOI ([see below](#getting-the-zenodo-archive-dois)). 
 
