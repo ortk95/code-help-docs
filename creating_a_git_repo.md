@@ -13,6 +13,8 @@
     4. Click the green `Create repository` button to create the repository.
 4. You should now have a new repository on GitHub.
 
+[GitHub's quickstart for repositories documentatiton](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)
+
 ## Using GitHub desktop to add files to the repository
 [GitHub desktop](https://desktop.github.com/) simplifies the process of managing a repository - e.g. adding new files, committing changes, and pushing changes from your computer to GitHub.
 
@@ -33,3 +35,32 @@
 6. To push the changes to GitHub, click the `Push origin` button in the top right corner of the GitHub desktop app. This will upload your changes to the GitHub repository.
 
 ![Pushing changes to GitHub](images/creating_a_git_repo/image-4.png)
+
+
+## Using `.gitignore` files to automatically exclude files from the repository
+`.gitignore` files can be used to automatically exclude certain files from being added to the repository. This is useful to simplify the process of adding files to the repository and to avoid accidentally adding files that don't need to be shared.
+
+To do this, you simply need to create a file called `.gitignore` in the root directory of the repository. This file should contain a list of file paths or patterns to include/exclude from the repository. For example, the following `.gitignore` file will exclude all files with the `.log` extension and all files in the `temp` directory from the repository:
+
+```gitignore
+*.log
+temp/
+```
+
+or this `.gitignore` file will exclude everything by default, and only include Python, Markdown and FITS files:
+
+```gitignore
+# Ignore everything by default
+*
+
+# Only allow directories and specific filetypes
+!*/
+!*.md
+!*.py
+!*.fits
+
+# Allow specific files
+!.gitignore
+```
+
+[GitHub's `.gitignore` documentation](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)
